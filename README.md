@@ -17,7 +17,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub repository](https://github.com/kari-osk/four-card-feature)
-- Live Site URL: [GitHub pages](https://your-live-site-url.com)
+- Live Site URL: [GitHub pages](https://kari-osk.github.io/four-card-feature/)
 
 ### Built with
 
