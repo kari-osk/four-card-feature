@@ -122,7 +122,6 @@ main {
   .text p {
     font-size: 17px;
   }
-
   .card {
     width: 350px;
     height: 250px;
@@ -138,28 +137,28 @@ main {
     width: 1114px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 30px 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 30px;
     grid-template-areas:
       '. team .'
-      'supervisor team calculator'
+      'supervisor team  calculator'
       'supervisor karma calculator'
       '. karma .';
-  }
-  .karma {
-    grid-area: karma;
-  }
-  .supervisor {
-    grid-area: supervisor;
   }
   .team {
     grid-area: team;
   }
-  .team img {
-    margin-right: 50px;
+  .supervisor {
+    grid-area: supervisor;
   }
   .calculator {
     grid-area: calculator;
+  }
+  .karma {
+    grid-area: karma;
+  }
+  .team img {
+    margin-right: 50px;
   }
 }
